@@ -21,6 +21,9 @@ A simple UNIX shell written in C that supports standard external commands, built
 Make sure you have a C compiler like GCC installed on your Linux environment.
 
 ```bash
+#delete the a.out file first
+rm a.out
+
 # Compile the shell
 gcc myshell.c -o myshell
 
